@@ -1,0 +1,23 @@
+AC_INIT(src/wikineitor)
+AM_INIT_AUTOMAKE(wikineitor, 0.1)
+
+AM_MAINTAINER_MODE
+
+AM_GLIB_GNU_GETTEXT
+
+AC_PROG_MAKE_SET
+
+GETTEXT_PACKAGE=wikineitor
+AC_PROG_INTLTOOL([0.23])
+AC_SUBST(GETTEXT_PACKAGE)
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])
+
+ALL_LINGUAS=""
+
+
+AC_OUTPUT(
+Makefile 
+src/Makefile 
+data/Makefile 
+po/Makefile.in
+)

@@ -1,0 +1,6 @@
+src/update-manager
+src/gnome-software-properties
+src/dialog_add.py.in
+src/aptsources.py.in
+data/update-manager.glade
+data/gnome-software-properties.glade

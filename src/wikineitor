@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+from WikiWindow import WikiWindow
+
+ww = WikiWindow()
+ww.main()
